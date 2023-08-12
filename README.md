@@ -1,5 +1,5 @@
 # react-vite-starter
-A React starter for Vite. Includes Storybook, Cypress, PWA support, routing, styling with [Jigsaw](https://github.com/ben-ryder/jigsaw) etc.
+A React starter using Vite. Includes Storybook, Cypress, PWA support, routing, styling with [Jigsaw](https://github.com/ben-ryder/jigsaw) etc. 
 
 ## Features
 - [Vite](https://vitejs.dev/) for development tooling.
