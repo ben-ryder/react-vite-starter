@@ -1,0 +1,80 @@
+{
+  "name": "@ben-ryder/react-vite-starter",
+  "description": "react-vite-starter-description",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "homepage": "https://github.com/Ben-Ryder/react-vite-starter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ben-Ryder/react-vite-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ben-Ryder/react-vite-starter/issues"
+  },
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "prepare": "husky install",
+    "sb:start": "storybook dev -p 6006 --no-open",
+    "sb:build": "storybook build -o build",
+    "test": "npm run test:unit && npm run test:e2e",
+    "test:unit": "cypress run --component -q",
+    "test:e2e": "cypress run --e2e -q",
+    "cy:start": "cypress open -b firefox",
+    "cy:start:unit": "cypress open --component -b firefox",
+    "cy:start:e2e": "cypress open --e2e -b firefox",
+    "code:lint": "npx eslint .",
+    "code:format": "npx prettier . --write"
+  },
+  "dependencies": {
+    "@ben-ryder/jigsaw": "^0.16.0-rc.4",
+    "@ben-ryder/jigsaw-react": "^0.16.0-rc.4",
+    "@hookform/resolvers": "^3.2.0",
+    "clsx": "^2.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet-async": "^1.3.0",
+    "react-hook-form": "^7.45.4",
+    "react-router-dom": "^6.15.0",
+    "sass": "^1.65.1",
+    "validator": "^13.11.0",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@storybook/addon-docs": "^7.2.3",
+    "@storybook/addon-essentials": "^7.2.3",
+    "@storybook/addon-interactions": "^7.2.3",
+    "@storybook/addon-links": "^7.2.3",
+    "@storybook/addons": "^7.2.3",
+    "@storybook/blocks": "^7.2.3",
+    "@storybook/react": "^7.2.3",
+    "@storybook/react-vite": "^7.2.3",
+    "@storybook/testing-library": "^0.2.0",
+    "@storybook/testing-react": "^2.0.1",
+    "@storybook/theming": "^7.2.3",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "cypress": "^12.17.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "husky": "^8.0.3",
+    "prettier": "^3.0.1",
+    "storybook": "^7.2.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
