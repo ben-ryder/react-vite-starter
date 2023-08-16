@@ -1,9 +1,9 @@
 import React from "react";
 import { routes } from "../routes";
-import { RVSMessagePage } from "../patterns/03-layouts/message-page/message-page";
+import { JPanelPage } from "../patterns/03-layouts/panel-page/panel-page.tsx";
 import { Helmet } from "react-helmet-async";
-import {JArrowLink, JButtonGroup} from "@ben-ryder/jigsaw-react";
-import { RVSInternalLink } from "../utils/internal-link";
+import {JArrowLink} from "@ben-ryder/jigsaw-react";
+import { JInternalLink } from "../utils/internal-link";
 
 export function PageNotFound() {
   return (
@@ -11,11 +11,11 @@ export function PageNotFound() {
       <Helmet>
         <title>Not Found | react-vite-starter</title>
       </Helmet>
-      <RVSMessagePage
+      <JPanelPage
         heading="Not Found"
         content={<p>The page you requested could not be found.</p>}
         extraContent={
-          <JArrowLink href={routes.home} direction="left" as={RVSInternalLink}>
+          <JArrowLink href={routes.home} direction="left" as={JInternalLink}>
             Back to Home
           </JArrowLink>
         }
