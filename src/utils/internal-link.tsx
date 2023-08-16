@@ -6,7 +6,7 @@ import {
 } from "@ben-ryder/jigsaw-react";
 import { Link } from "react-router-dom";
 
-export function RVSInternalLink(
+export function JInternalLink(
   props: JTextLinkProps | JArrowLinkProps | JButtonLinkProps | JBadgeProps,
 ) {
   if (props.href?.startsWith("/")) {

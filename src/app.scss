@@ -16,7 +16,8 @@
   Layouts
 =============================
  */
-@use "patterns/03-layouts/message-page/message-page";
+@use "./patterns/03-layouts/global-layout/global-layout";
+@use "./patterns/03-layouts/panel-page/panel-page";
 
 /**
 =============================
