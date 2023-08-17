@@ -8,7 +8,7 @@ A React starter using Vite. Includes Storybook, Cypress, PWA support, routing, s
 - [Jigsaw](https://github.com/ben-ryder/jigsaw) for components and styling.
 - [vite-plugin-pwa](https://github.com/vite-pwa/vite-plugin-pwa) for PWA support.
 - [react-router-dom](https://github.com/remix-run/react-router) for page routing.
-- [clsx](https://github.com/lukeed/clsx) utility for managing class names.
+- [classnames](https://github.com/JedWatson/classnames) utility for managing class names.
 - [react-hook-form](https://react-hook-form.com/) and [zod](https://zod.dev/) for handling forms and data validation.
 
 There is also some default application features included too:
